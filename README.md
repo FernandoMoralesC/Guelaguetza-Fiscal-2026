@@ -1,15 +1,31 @@
-# Guelaguetza Fiscal 2026
+[README.md](https://github.com/user-attachments/files/30097815/README.md)
+# Guelaguetza Fiscal 2026 - versión 0.2
 
-Espacio digital para invitados de la Guelaguetza Fiscal 2026.
+Espacio digital oficial del evento.
 
-## Estructura
+## Archivos que debes subir a GitHub
 
-- `index.html`: página principal.
-- `css/styles.css`: diseño visual.
-- `js/script.js`: interacciones.
-- `img/`: logotipos, portadas y fotografías.
-- `ponencias/`: documentos PDF de los ponentes.
+- `index.html`
+- `css/styles.css`
+- `js/script.js`
+- `img/logo-guelaguetza.jpg`
+- `img/logo-ciat.jpg`
 
-## Publicación
+## Cómo enlazar las fotografías
 
-El sitio está preparado para publicarse mediante GitHub Pages desde la rama `main`.
+En `index.html`, busca los tres elementos que contienen:
+
+```html
+<a class="gallery-card ... " href="#">
+```
+
+Sustituye `#` por el enlace público de Google Drive o Google Photos.
+
+## Cómo agregar ponencias
+
+Sube los PDF a la carpeta `ponencias` y cambia cada tarjeta por un enlace.
+Ejemplo:
+
+```html
+<a class="document-card" href="ponencias/nombre-del-archivo.pdf" target="_blank">
+```
