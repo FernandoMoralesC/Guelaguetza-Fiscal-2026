@@ -12,3 +12,10 @@ navLinks.querySelectorAll("a").forEach((link) => {
     menuButton.setAttribute("aria-expanded", "false");
   });
 });
+
+// Evita que los enlaces provisionales de las galerías recarguen la página.
+document.querySelectorAll('.gallery-card[href="#"]').forEach((card) => {
+  card.addEventListener("click", (event) => {
+    event.preventDefault();
+  });
+});
