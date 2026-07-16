@@ -139,10 +139,11 @@ a {
 }
 
 .organizer-line img {
-  width: 110px;
-  padding: 0;
-  border-radius: 0;
-  background: transparent;
+  width: 95px;
+  padding: 8px 10px;
+  border-radius: 12px;
+  background: #ffffff;
+  box-shadow: 0 10px 25px rgba(0,0,0,.18);
 }
 
 .hero-label {
@@ -569,10 +570,11 @@ footer {
 }
 
 .footer-organizer img {
-  width: 92px;
-  padding: 0;
-  border-radius: 0;
-  background: transparent;
+  width: 82px;
+  padding: 7px 9px;
+  border-radius: 10px;
+  background: #ffffff;
+  box-shadow: 0 8px 18px rgba(0,0,0,.15);
 }
 
 .back-top {
