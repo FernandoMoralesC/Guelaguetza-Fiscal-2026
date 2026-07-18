@@ -1,31 +1,37 @@
-[README.md](https://github.com/user-attachments/files/30097815/README.md)
-# Guelaguetza Fiscal 2026 - versión 0.2
+[README.md](https://github.com/user-attachments/files/30155076/README.md)
+# Guelaguetza Fiscal 2026
 
-Espacio digital oficial del evento.
+Versión definitiva del micrositio para GitHub Pages.
 
-## Archivos que debes subir a GitHub
+## Archivos que faltan por sustituir o subir
 
-- `index.html`
-- `css/styles.css`
-- `js/script.js`
-- `img/logo-guelaguetza.jpg`
-- `img/logo-ciat.jpg`
+### Patrocinadores
+Coloca en la raíz del proyecto:
 
-## Cómo enlazar las fotografías
+- `Patrocinio-01.png`
+- `Patrocinio-02.png`
+- `Patrocinio-03.png`
+- `Patrocinio-04.png`
+- `Patrocinio-05.png`
 
-En `index.html`, busca los tres elementos que contienen:
+Si alguno todavía no existe, la página lo ocultará automáticamente sin mostrar un ícono roto.
 
-```html
-<a class="gallery-card ... " href="#">
-```
+### Ponencias
+Sustituye los PDF de prueba dentro de `ponencias/` conservando exactamente estos nombres:
 
-Sustituye `#` por el enlace público de Google Drive o Google Photos.
+- `Ponencia-01.pdf`
+- `Ponencia-02.pdf`
+- `Ponencia-03.pdf`
+- `Ponencia-04.pdf`
 
-## Cómo agregar ponencias
+Después edita en `index.html` el título y el nombre de cada ponente.
 
-Sube los PDF a la carpeta `ponencias` y cambia cada tarjeta por un enlace.
-Ejemplo:
+### Galerías
+En `index.html`, localiza las tres tarjetas de galería y sustituye cada `href="#"` por su enlace de Google Drive:
 
-```html
-<a class="document-card" href="ponencias/nombre-del-archivo.pdf" target="_blank">
-```
+1. Alfombra roja
+2. Evento
+3. Bailable
+
+## Publicación
+Sube todo el contenido de esta carpeta a la raíz del repositorio de GitHub Pages.
