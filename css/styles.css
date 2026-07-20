@@ -528,9 +528,9 @@ a {
   line-height: 1;
   letter-spacing: -0.045em;
 
-  min-height: 2.2em;
+  min-height: 2.3em;
   display: flex;
-  align-items: flex-end;
+  align-items: flex-start;
 }
 
 .gallery-link {
