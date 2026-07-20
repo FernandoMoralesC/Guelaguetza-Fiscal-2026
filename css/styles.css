@@ -527,6 +527,10 @@ a {
   font-size: clamp(1.7rem, 3vw, 2.35rem);
   line-height: 1;
   letter-spacing: -0.045em;
+
+  min-height: 2.2em;
+  display: flex;
+  align-items: flex-end;
 }
 
 .gallery-link {
