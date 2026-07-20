@@ -262,14 +262,16 @@ a {
 
 .sponsors-logos {
   width: 100%;
-  display: grid;
-  grid-template-columns: repeat(5, minmax(80px, 1fr));
-  gap: 40px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
   align-items: center;
+  gap: 32px 55px;
 }
 
 .sponsors-logos img {
-  width: 100%;
+  width: auto;
+  max-width: 190px;
   height: 48px;
   object-fit: contain;
   opacity: 0.92;
