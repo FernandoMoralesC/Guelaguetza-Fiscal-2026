@@ -774,3 +774,27 @@ footer {
   margin-bottom: 26px;
   color: rgba(255, 255, 255, 0.66);
 }
+
+/* ===========================
+   AVISO INSTITUCIONAL
+=========================== */
+
+.legal-notice{
+    background:#18183b;
+    border-top:1px solid rgba(255,255,255,.08);
+    padding:28px 20px;
+}
+
+.legal-notice .container{
+    max-width:900px;
+    margin:0 auto;
+    text-align:center;
+}
+
+.legal-notice p{
+    margin:0;
+    color:rgba(255,255,255,.68);
+    font-size:.90rem;
+    line-height:1.8;
+    font-weight:400;
+}
