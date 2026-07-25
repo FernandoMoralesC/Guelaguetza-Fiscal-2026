@@ -116,7 +116,9 @@
         </div>
 
         <div class="document-list">
-          <a class="document-card" href="ponencias/Ponencia-01.pdf" target="_blank" rel="noopener">
+          <a class="document-card protected-pdf"
+   href="#"
+   data-pdf="ponencias/Ponencia-01.pdf">
             <div class="document-icon">PDF</div>
             <div class="document-info">
               <span>Material de ponencia</span>
@@ -126,7 +128,9 @@
             <span class="status-button">Abrir PDF</span>
           </a>
 
-          <a class="document-card" href="ponencias/Ponencia-02.pdf" target="_blank" rel="noopener">
+<a class="document-card protected-pdf"
+   href="#"
+   data-pdf="ponencias/Ponencia-02.pdf">
             <div class="document-icon">PDF</div>
             <div class="document-info">
               <span>Material de ponencia</span>
@@ -136,7 +140,9 @@
             <span class="status-button">Abrir PDF</span>
           </a>
 
-          <a class="document-card" href="ponencias/Ponencia-03.pdf" target="_blank" rel="noopener">
+<a class="document-card protected-pdf"
+   href="#"
+   data-pdf="ponencias/Ponencia-03.pdf">
             <div class="document-icon">PDF</div>
             <div class="document-info">
               <span>Material de ponencia</span>
@@ -146,7 +152,9 @@
             <span class="status-button">Abrir PDF</span>
           </a>
 
-          <a class="document-card" href="ponencias/Ponencia-04.pdf" target="_blank" rel="noopener">
+<a class="document-card protected-pdf"
+   href="#"
+   data-pdf="ponencias/Ponencia-04.pdf">
             <div class="document-icon">PDF</div>
             <div class="document-info">
               <span>Material de ponencia</span>
@@ -245,6 +253,74 @@
     </div>
   </footer>
 
+  <!-- ===========================
+     ACCESO A MATERIAL ACADÉMICO
+=========================== -->
+
+<div
+  class="access-modal"
+  id="accessModal"
+  aria-hidden="true">
+
+  <div
+    class="access-modal-backdrop"
+    data-close-modal></div>
+
+  <div
+    class="access-modal-box"
+    role="dialog"
+    aria-modal="true">
+
+    <button
+      class="access-modal-close"
+      id="accessModalClose"
+      type="button">
+      ×
+    </button>
+
+    <p class="access-modal-label">
+      Guelaguetza Fiscal 2026
+    </p>
+
+    <h2>
+      Acceso al Material Académico
+    </h2>
+
+    <p class="access-modal-description">
+      Introduzca la contraseña proporcionada durante el evento para acceder a la ponencia seleccionada.
+    </p>
+
+    <form id="accessForm">
+
+      <label>
+        Contraseña
+      </label>
+
+      <input
+        id="accessPassword"
+        type="password"
+        autocomplete="off"
+        required>
+
+      <p
+        class="access-error"
+        id="accessError">
+      </p>
+
+      <button
+        class="access-submit"
+        type="submit">
+
+        Acceder
+
+      </button>
+
+    </form>
+
+  </div>
+
+</div>
+  
   <script src="js/script.js"></script>
 </body>
 </html>
